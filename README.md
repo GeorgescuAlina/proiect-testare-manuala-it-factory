@@ -27,7 +27,7 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 #### 1.1.1 Roles assigned to the project and persons allocated
 
-| Job Title  | Number of employee |
+| Job Title  | Number of employees |
 | :---: | :---: |
 | Project Manager  | 1  |
 | Product Owner  | 1 |
@@ -62,11 +62,18 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 Project risks: 
 
-*
+* Insufficient budget to finalize the project
+* Insufficient employees
+* Lack of experience for the employees to finalize the project
+* It might be not enought time to finalize the project at deadline
 
 Product risks: 
 
-*
+* The NEW graphic user interface is not suitable for the existing users
+* The graphic user interface is not fully funtional
+* There should be no better competitors
+* New browsers might not be supported
+
 
 #### 1.1.6 Evaluating entry criteria
 
