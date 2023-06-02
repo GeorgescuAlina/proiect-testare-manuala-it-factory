@@ -55,13 +55,18 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 #### 1.1.4 Test scope
 
-* __Tests in scope:__ 
-* __Tests not in scope:__ 
+* __Tests in scope:__ All the features related to the NEW graphic interface of OpenCart application - which were defined in software requirement specs need to be tested: functional testing, graphic user interface testing
+* __Tests not in scope:__ compatibility testing with multiple browsers/ devices, existing functionalities implemented before, performance
 
 #### 1.1.5 Risks detected
 
-* Project risks: 
-* Product risks: 
+Project risks: 
+
+*
+
+Product risks: 
+
+*
 
 #### 1.1.6 Evaluating entry criteria
 
