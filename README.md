@@ -81,7 +81,18 @@ The entry criterias defined in the Test Planning phase have been achieved and th
 
 ## 1.2 Test Monitoring and Control
 
-It will be done by generating periodic reports that reflect the current status of the test.
+It will be done by generating periodic reports that reflect the current status of the test. It will include:
+
+* Test Coverage Metric
+* Test Execution Metrics (Number of test cases pass, fail, blocked, on hold)
+* Defect Metrics
+
+
+#### Regarding Test Control, we will:
+
+* Prioritizing the testing efforts
+* Reorganizing the test environment
+* Re-prioritizing the test cases
 
 ## 1.3 Test Analysis
 
