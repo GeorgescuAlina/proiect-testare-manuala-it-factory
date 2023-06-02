@@ -37,12 +37,21 @@ The plan identifies the items to be tested, the features to be tested, the types
 |QA Lead| 1|
 |Manuela Tester| 1|
 
-
-
 #### 1.1.2 Entry criteria defined
 
+* The website feature is partial/fully implemented
+* Requirements and specifications are written and approved 
+* When persons are allocated on their roles
+* Required hardware (e.g. computers, mobiles etc)
+* A designated space to work
+* The manual tests are written based on application documentation
 
 #### 1.1.3 Exit criteria defined
+
+* All manual tests are executed
+* At least 90% of manual test are passed and there is no Major defect
+* All defects have been re-tested and confirmed as fixed
+* 
 
 #### 1.1.4 Test scope
 
