@@ -49,9 +49,9 @@ The plan identifies the items to be tested, the features to be tested, the types
 #### 1.1.3 Exit criteria defined
 
 * All manual tests are executed
-* At least 90% of manual test are passed and there is no Major defect
+* At least 90% of manual test are passed 
+* The unresoled defects have low priority
 * All defects have been re-tested and confirmed as fixed
-* 
 
 #### 1.1.4 Test scope
 
