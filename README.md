@@ -27,6 +27,16 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 #### 1.1.1 Roles assigned to the project and persons allocated
 
+| Job Title  | Number of employee |
+| :---: | :---: |
+| Project Manager  | 1  |
+| Product Owner  | 1 |
+|Senior Lead Promgrammer| 1|
+|Middle Programmers| 2|
+|User experience/ User Interface Designer| 1|
+|QA Lead| 1|
+|Manuela Tester| 1|
+
 1 Project Manager
 1 Product Owner 
 1 Senior Lead Programmer
