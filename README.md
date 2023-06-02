@@ -37,13 +37,6 @@ The plan identifies the items to be tested, the features to be tested, the types
 |QA Lead| 1|
 |Manuela Tester| 1|
 
-1 Project Manager
-1 Product Owner 
-1 Senior Lead Programmer
-2 Middle Programmers
-1 User experience/ User Interface Designer 
-1 QA Lead
-1 manual tester
 
 
 #### 1.1.2 Entry criteria defined
