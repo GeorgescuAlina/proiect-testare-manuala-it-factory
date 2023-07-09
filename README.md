@@ -129,7 +129,7 @@ The testing process will be executed based on the above requirements for the NEW
 
 ## 1.4 Test Design
 
-The stories parent is an epic and can be viewed here:[Epic.pdf](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/files/11995606/Epic.pdf)
+The stories parent is an epic and can be viewed here: [Epic.pdf](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/files/11995606/Epic.pdf)
 
 * NEW graphic interface of OpenCart application
 
@@ -183,9 +183,10 @@ The following elements are needed to be ready before the test execution phase be
 
 ## 1.6 Test Execution
 
-* Test cases are executed on the created test Cycle summary: [cycle_summary_execution.pdf]()
-* Bugs have been created based on the failed tests. The complete bug reports can be found here: [created_bugs.pdf]()
+* TO BE ADDED - Test cases are executed on the created test Cycle summary: [cycle_summary_execution.pdf]()
+* Bugs have been created based on the failed tests. The complete bug reports can be found here: [Bugs.pdf](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/files/11995638/Bugs.pdf)
     *  enter here bug titles
+
 
 
 ## 1.7 Test Completion
