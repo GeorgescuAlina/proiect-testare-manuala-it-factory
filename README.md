@@ -180,9 +180,16 @@ The following elements are needed to be ready before the test execution phase be
 
 * TO BE ADDED - Test cases are executed on the created test Cycle summary: [cycle_summary_execution.pdf]()
 * Bugs have been created based on the failed tests. The complete bug reports can be found here: [Bugs.pdf](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/blob/main/Bugs.pdf)
-    *  enter here bug titles
-
-
+    *  The user is not redirected to add a review from product page
+    *  The social media share buttons are not displayed on any product page
+    *  In the product comparison page the products are not displayed
+    *  The shopping cart button on feature products is not according to technical documentation
+    *  The user is redirected to the product page when adding to the shopping cart the last 2 products from feature products
+    *  The link name "Gift Certificates"/"Affiliate" should be "Gift Vouchers"/"Affiliates" in the "Extras" category from footer
+    *  The links from the "Information" category redirect the user to a page without content, only title is displayed
+    *  Incorrect order of "Information" category links from footer
+    *  When the user clicks on the slideshow banners is redirected to a wrong page or product page is not opened
+    *  Internal server error page is displayed when searching for a product
 
 ## 1.7 Test Completion
 
@@ -197,8 +204,7 @@ Tracebility matrix - Stories & Bugs
 
 ![image](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/assets/135150078/59c70def-41d3-4f13-b9a3-940cddd3bcb4)
 
-* Test execution chart was generated, the final report shows.... -> describe the final report
+* TO BE ADDED - Test execution chart was generated, the final report shows.... -> describe the final report
 
--> enter here test execution report/chart
 
 # 2 SQL section
