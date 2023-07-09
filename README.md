@@ -190,9 +190,11 @@ The following elements are needed to be ready before the test execution phase be
 * The traceability matrix was generated and can be found here:
 
 Tracebility matrix - Stories & Test Cases
+
 ![image](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/assets/135150078/e21c90de-ba14-41e9-aef4-a377dbdcfa96)
 
 Tracebility matrix - Stories & Bugs
+
 ![image](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/assets/135150078/59c70def-41d3-4f13-b9a3-940cddd3bcb4)
 
 * Test execution chart was generated, the final report shows.... -> describe the final report
