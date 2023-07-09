@@ -87,6 +87,9 @@ It will be done by generating periodic reports that reflect the current status o
   
 ![image](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/assets/135150078/f4d37a9f-b7a5-4c65-8914-9434a69e54b4)
 
+![image](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/assets/135150078/404c1537-c869-4dd0-a6b9-caa5ce47fd24)
+
+
 * Test Execution Metrics
 
 ![image](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/assets/135150078/bed1d579-6e28-474a-968d-f1a4fb6586d1)
