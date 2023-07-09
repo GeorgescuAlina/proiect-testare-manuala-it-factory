@@ -91,11 +91,6 @@ It will be done by generating periodic reports that reflect the current status o
 
 ![image](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/assets/135150078/bed1d579-6e28-474a-968d-f1a4fb6586d1)
 
-* Traceability matrix Test Cases done on Stories
-  
-![image](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/assets/135150078/e21c90de-ba14-41e9-aef4-a377dbdcfa96)
-
-
 #### Regarding Test Control, we will:
 
 * Prioritizing the testing efforts
@@ -192,7 +187,14 @@ The following elements are needed to be ready before the test execution phase be
 ## 1.7 Test Completion
 
 * Exit criteria was evaluated and passed
-* The traceability matrix was generated and can be found here: [Traceability_matrix.csv]()
+* The traceability matrix was generated and can be found here:
+
+Tracebility matrix - Stories & Test Cases
+![image](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/assets/135150078/e21c90de-ba14-41e9-aef4-a377dbdcfa96)
+
+Tracebility matrix - Stories & Bugs
+![image](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/assets/135150078/59c70def-41d3-4f13-b9a3-940cddd3bcb4)
+
 * Test execution chart was generated, the final report shows.... -> describe the final report
 
 -> enter here test execution report/chart
