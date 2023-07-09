@@ -211,5 +211,21 @@ Tracebility matrix - Stories & Bugs
   
 ![image](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/assets/135150078/0f3e4eab-0455-4a8d-a142-831c7a9058ae)
 
+# 2 API section
 
-# 2 SQL section
+In this section will be deschide how API testing was performed. 
+
+API base URL: http://192.168.1.174:8080/alina/index.php?route=
+
+| Endpoint  | Method | Parameters | What it does |
+| :---: | :---: | :---: | :---: |
+| api/account/login  | POST | username/ key as form-data | Return API Token |
+| api/sale/cart&api_token=your_token | GET | api_token | Return cart products |
+| api/sale/cart.add&api_token=your_token | POST | api_token and in body as form-data product_id and quantity | Add products to cart |
+| api/sale/cart.remove&api_token=your_token | POST | api_token and in body as form-data product key as key | Remove products from cart |
+| api/sale/voucher.add&api_token=your_token | POST | api_token and in body as form-data form_name / from_email/ to_name / to_email / voucher_theme_id / message / amount | Add voucher |
+| api/sale/voucher.remove&api_token=your_token | POST | api_token and and in body as form-data add product key as key | Remove voucher |
+
+# 3 SQL section
+
+In this section will be deschide how SQL testing was performed.
