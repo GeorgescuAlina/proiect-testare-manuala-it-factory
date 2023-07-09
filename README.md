@@ -129,11 +129,11 @@ The testing process will be executed based on the above requirements for the NEW
 
 ## 1.4 Test Design
 
-The stories parent is an epic and can be viewed here: [Epic.pdf](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/files/11995606/Epic.pdf)
+The stories parent is an epic and can be viewed here: [Epic.pdf](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/blob/main/Epic.pdf)
 
 * NEW graphic interface of OpenCart application
 
-Based on the analysis of the specifications, the stories were created in Jira and can be viewed here: [Jira Stories.pdf](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/files/11995595/Jira.Stories.pdf)
+Based on the analysis of the specifications, the stories were created in Jira and can be viewed here: [Jira Stories.pdf](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/blob/main/Jira%20Stories.pdf)
 
 * Implement the checkout page
 * Implement the account creation page
