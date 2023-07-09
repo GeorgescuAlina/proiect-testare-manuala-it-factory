@@ -129,20 +129,57 @@ The testing process will be executed based on the above requirements for the NEW
 
 ## 1.4 Test Design
 
+The stories parent is an epic and can be viewed here:[Epic.pdf](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/files/11995606/Epic.pdf)
+
+* NEW graphic interface of OpenCart application
+
+Based on the analysis of the specifications, the stories were created in Jira and can be viewed here: [Jira Stories.pdf](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/files/11995595/Jira.Stories.pdf)
+
+* Implement the checkout page
+* Implement the account creation page
+* Implement the shopping cart page
+* Implement the product compare page
+* Implement the category product listings
+* Create the product pages
+* Create the footer
+* Implement the featured products
+* Implement the slideshow
+* Create the top menu
+* Implement the page header 
+
 Functional test cases were created in Zephyr Squad. Based on the analysis of the specifications, the test design techniques used for generating test cases 
 are:
 
-**Test cases:**
--> enter here test cases or at least the titles
+* On any product page all the information is displayed according to documentation
+* The user is able to compare products
+* Footer links redirected the user to the desired page
+* Check if the footer is present on any page
+* Check the links order in footer
+* The user is able to access the feature products
+* A new page will be displayed when accessing categories
+* When the banner is clicked on, the customer will be directed to the product on the banner's page
+* By clicking on the category, you will be redirected to the respective category
+* The top menu will be displayed on each page
+* A drop-down menu will display subcategories
+* Test implementation of the my account
+* Check if the telephone number is displayed and it is correctly written
+* The user is able to access header links and is redirected to the desired page
+* Test functionality of the search box
+* Test functionality of the shopping cart
+* Currency block: The customer can select which currency the store's products will be in by clicking on any of the currency icons
+* Clicking on the store logo will direct the customer back to the home page of the store
 
-
-The test cases with steps can be viewed here: [test_cases.pdf]()
+TO BE ADDED - The test cases with steps can be viewed here: [test_cases.pdf]() 
 
 ## 1.5 Test Implementation
 
 The following elements are needed to be ready before the test execution phase begins:
 
-* enter here what needs to be ready for the test execution to begin
+* The test cases are written for the story to be tested
+* The story was implement and the code was deployed to the testing environment
+* The tester is using a stable internet connection (15-20 megabits-per-second Mb/s at a minimum)
+* The tester is able to use a laptop or PC with Windows operating system
+* The Chrome browser is installed
 
 ## 1.6 Test Execution
 
