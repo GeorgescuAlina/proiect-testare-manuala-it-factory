@@ -208,6 +208,8 @@ Tracebility matrix - Stories & Bugs
 ![image](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/assets/135150078/59c70def-41d3-4f13-b9a3-940cddd3bcb4)
 
 * TO BE ADDED - Test execution chart was generated, the final report shows.... -> describe the final report
+  
+![image](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/assets/135150078/0f3e4eab-0455-4a8d-a142-831c7a9058ae)
 
 
 # 2 SQL section
