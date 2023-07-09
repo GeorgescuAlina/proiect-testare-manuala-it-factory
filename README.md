@@ -87,7 +87,7 @@ It will be done by generating periodic reports that reflect the current status o
   
 ![image](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/assets/135150078/f4d37a9f-b7a5-4c65-8914-9434a69e54b4)
 
-* Test Execution Metrics (Number of test cases pass, fail, blocked, on hold)
+* Test Execution Metrics
 
 ![image](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/assets/135150078/bed1d579-6e28-474a-968d-f1a4fb6586d1)
 
@@ -114,23 +114,17 @@ The testing process will be executed based on the above requirements for the NEW
 	- Header links functionality
 	- Telephone number functionality
 	- My Account functionality
-	
 - Test the new top menu and validate:
 	- Dropdown on subcategories functionality
 	- Categories functionality
 	- Presence of top menu
-	
 - Test the slideshow and validate if the user is redirected to the product accessed from the slideshow
-	
 - Test the feature products and validate if the user is able to access feature products
-	
 - Test the footer and validate:
 	- The links order
 	- If the footer is present in any page
 	- If the footer links redirected the user to the desired page
-
 - Test the product page and validate all required data that a product page require to displayed regarding the documentation
-	
 - Test product compare and validate if the user is able to compare products
 
 ## 1.4 Test Design
