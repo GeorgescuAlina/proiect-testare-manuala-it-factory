@@ -226,6 +226,42 @@ API base URL: http://192.168.1.174:8080/alina/index.php?route=
 | api/sale/voucher.add&api_token=your_token | POST | api_token and in body as form-data form_name / from_email/ to_name / to_email / voucher_theme_id / message / amount | Add voucher |
 | api/sale/voucher.remove&api_token=your_token | POST | api_token and and in body as form-data add product key as key | Remove voucher |
 
+## api/account/login ##
+
+## Request ##
+![image](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/assets/135150078/23d86580-41c7-495a-9ab5-6d0af359b488)
+
+## Response ##
+![image](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/assets/135150078/9ac5a8e1-6b9c-4a3a-9d0b-5818aba773ac)
+
+## Tests ##
+
+* Check if status code is 200
+```
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+```
+* Check if response body contains string api_token
+```
+pm.test("Body matches string", function () {
+    pm.expect(pm.response.text()).to.include("api_token");
+});
+```
+* Check if response time is less than 200 ms
+```
+pm.test("Response time is less than 200ms", function () {
+    pm.expect(pm.response.responseTime).to.be.below(200);
+});
+```
+## Test Results ##
+
+![image](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/assets/135150078/05d1f292-b3b8-4360-9b46-8e26fe08016f)
+
+
+
+
+
 # 3 SQL section
 
 In this section will be deschide how SQL testing was performed.
