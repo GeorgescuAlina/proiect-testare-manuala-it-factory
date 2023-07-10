@@ -167,7 +167,7 @@ are:
 * Currency block: The customer can select which currency the store's products will be in by clicking on any of the currency icons
 * Clicking on the store logo will direct the customer back to the home page of the store
 
-TO BE ADDED - The test cases with steps can be viewed here: [test_cases.pdf]() 
+The test cases with steps can be viewed here: [[test_cases.pdf]() ](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/blob/main/Zephyr%20TestCases.pdf)
 
 ## 1.5 Test Implementation
 
@@ -181,7 +181,8 @@ The following elements are needed to be ready before the test execution phase be
 
 ## 1.6 Test Execution
 
-* TO BE ADDED - Test cases are executed on the created test Cycle summary: [cycle_summary_execution.pdf]()
+Test cases are executed on the created test Cycle summary: [[cycle_summary_execution.pdf]()](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/blob/main/Zephyr%20Tests%20%2B%20Executions%20%2B%20Results.pdf)
+
 * Bugs have been created based on the failed tests. The complete bug reports can be found here: [Bugs.pdf](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/blob/main/Bugs.pdf)
     *  The user is not redirected to add a review from product page
     *  The social media share buttons are not displayed on any product page
