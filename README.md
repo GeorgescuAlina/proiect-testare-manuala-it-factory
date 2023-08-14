@@ -262,7 +262,7 @@ pm.test("Response time is less than 200ms", function () {
 
 # 3 SQL section
 
-In this section will be deschide how SQL testing was performed:
+In this section will be deschide how SQL testing was performed, in order to to that we will create 2 tables Categories and Products and perform different transactions to check if data is correctly added/updated/deleted.
 
 * Categories
    * Create the table
