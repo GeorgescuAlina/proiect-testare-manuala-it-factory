@@ -260,9 +260,151 @@ pm.test("Response time is less than 200ms", function () {
 ![image](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/assets/135150078/05d1f292-b3b8-4360-9b46-8e26fe08016f)
 
 
-
-
-
 # 3 SQL section
 
-In this section will be deschide how SQL testing was performed.
+In this section will be deschide how SQL testing was performed:
+
+* Categories
+   * Create the table
+ 
+		```sql
+		CREATE TABLE categories (
+		    category_id INT PRIMARY KEY,
+		    category_name VARCHAR(255) NOT NULL
+		);
+		```
+   * Add new category
+ 
+		``` sql
+		INSERT INTO categories (category_id, category_name) VALUES (1, 'Electronics');
+		```
+   
+   * Check if category was successfully added
+
+		``` sql
+		SELECT category_id, category_name FROM categories WHERE category_name = 'Electronics';
+		
+		/*
+		SELECT QUERY RESULT
+		*/
+		
+		+-------------+--------------+
+		| category_id | category_name |
+		+-------------+--------------+
+		|      1      | Electronics  |
+		+-------------+--------------+
+		```
+	     
+* Products
+   * Create the table
+ 
+		``` sql
+		CREATE TABLE products (
+		    product_id INT PRIMARY KEY,
+		    product_name VARCHAR(255) NOT NULL,
+		    category_id INT,
+		    price DECIMAL(10, 2) NOT NULL,
+		    description TEXT,
+		    stock_quantity INT NOT NULL,
+		    creation_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+		    last_updated TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+		    FOREIGN KEY (category_id) REFERENCES categories(category_id)
+		);
+		```
+   * Insert 10 products
+     
+		``` sql
+		INSERT INTO products (product_name, category_id, price, description, stock_quantity)
+		VALUES
+		    ('Laptop', 1, 999.99, 'High-performance laptop', 50),
+		    ('Smartphone', 1, 599.99, 'Latest model smartphone', 100),
+		    ('T-shirt', 2, 19.99, 'Comfortable cotton t-shirt', 200),
+		    ('Jeans', 2, 49.99, 'Classic denim jeans', 150),
+		    ('Running Shoes', 3, 79.99, 'Breathable running shoes', 80),
+		    ('Watch', 4, 149.99, 'Elegant wristwatch', 30),
+		    ('Backpack', 5, 39.99, 'Durable travel backpack', 120),
+		    ('Camera', 6, 799.99, 'Professional DSLR camera', 25),
+		    ('Desk Lamp', 7, 29.99, 'Adjustable LED desk lamp', 90),
+		    ('Sunglasses', 8, 59.99, 'UV protection sunglasses', 70);
+		```
+   * Check if products were added successfully
+		
+		``` sql
+		SELECT product_id, product_name, category_id, price, description, stock_quantity FROM products;
+		
+		/*
+		SELECT QUERY RESULT
+		*/
+		
+		+------------+--------------+-------------+--------+-------------------------------+----------------+
+		| product_id | product_name | category_id| price  | description                   | stock_quantity |
+		+------------+--------------+-------------+--------+-------------------------------+----------------+
+		| 1          | Laptop       | 1           | 999.99 | High-performance laptop       | 50             |
+		| 2          | Smartphone   | 1           | 599.99 | Latest model smartphone      | 100            |
+		| 3          | T-shirt      | 2           | 19.99  | Comfortable cotton t-shirt   | 200            |
+		| 4          | Jeans        | 2           | 49.99  | Classic denim jeans          | 150            |
+		| 5          | Running Shoes| 3           | 79.99  | Breathable running shoes     | 80             |
+		| 6          | Watch        | 4           | 149.99 | Elegant wristwatch           | 30             |
+		| 7          | Backpack     | 5           | 39.99  | Durable travel backpack      | 120            |
+		| 8          | Camera       | 6           | 799.99 | Professional DSLR camera     | 25             |
+		| 9          | Desk Lamp    | 7           | 29.99  | Adjustable LED desk lamp     | 90             |
+		| 10         | Sunglasses   | 8           | 59.99  | UV protection sunglasses    | 70             |
+		+------------+--------------+-------------+--------+-------------------------------+----------------+
+		```
+  * Update 6 products and check if the update was successful
+	``` sql
+	UPDATE products SET price = 899.99, stock_quantity = 60 WHERE product_id IN (2, 4, 6, 8, 10, 12);
+	SELECT product_id, product_name, price, stock_quantity FROM products WHERE product_id IN (2, 4, 6, 8, 10, 12);
+	
+	/*
+	SELECT QUERY BEFORE UPDATE
+	*/
+	
+	+------------+--------------+--------+----------------+
+	| product_id | product_name | price  | stock_quantity |
+	+------------+--------------+--------+----------------+
+	| 2          | Smartphone   | 599.99 | 100            |
+	| 4          | Jeans        | 49.99  | 150            |
+	| 6          | Watch        | 149.99 | 30             |
+	| 8          | Camera       | 799.99 | 25             |
+	| 10         | Sunglasses   | 59.99  | 70             |
+	| 12         | Headphones   | 79.99  | 100            |
+	+------------+--------------+--------+----------------+
+	
+	/*
+	SELECT QUERY AFTER UPDATE
+	*/
+	
+	+------------+--------------+--------+----------------+
+	| product_id | product_name | price  | stock_quantity |
+	+------------+--------------+--------+----------------+
+	| 2          | Smartphone   | 899.99 | 60             |
+	| 4          | Jeans        | 49.99  | 60             |
+	| 6          | Watch        | 899.99 | 60             |
+	| 8          | Camera       | 899.99 | 60             |
+	| 10         | Sunglasses   | 59.99  | 60             |
+	| 12         | Headphones   | 79.99  | 60             |
+	+------------+--------------+--------+----------------+
+	```
+  * Delete 5 products
+
+	``` sql
+	DELETE FROM products WHERE product_id IN (2, 4, 6, 8, 10);
+	SELECT product_id, product_name FROM products;
+	
+	
+	/*
+	SELECT QUERY AFTER DELETE
+	*/
+	
+	+------------+--------------+
+	| product_id | product_name |
+	+------------+--------------+
+	| 1          | Laptop       |
+	| 3          | T-shirt      |
+	| 5          | Running Shoes|
+	| 7          | Backpack     |
+	| 9          | Desk Lamp    |
+	+------------+--------------+
+	```
+
