@@ -226,15 +226,128 @@ API base URL: http://192.168.1.174:8080/alina/index.php?route=
 | api/sale/voucher.add&api_token=your_token | POST | api_token and in body as form-data form_name / from_email/ to_name / to_email / voucher_theme_id / message / amount | Add voucher |
 | api/sale/voucher.remove&api_token=your_token | POST | api_token and and in body as form-data add product key as key | Remove voucher |
 
-## api/account/login ##
+## api/account/login ## POST 
 
 ## Request ##
 ![image](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/assets/135150078/23d86580-41c7-495a-9ab5-6d0af359b488)
 
 ## Response ##
-![image](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/assets/135150078/9ac5a8e1-6b9c-4a3a-9d0b-5818aba773ac)
+``` json
+{
+  "status": "success",
+  "message": "Token generated successfully.",
+  "data": {
+    "api_token": "3128dhsa1293dsak21"
+  }
+}
+```
+## api/sale/cart.add&api_token=your_token ## POST
 
-## Tests ##
+## Request ##
+![image](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/assets/135150078/22a27e37-835e-4863-a3cf-10f7cb536309)
+
+## Response ##
+``` json
+{
+  "status": "success",
+  "message": "The product was added successfully to the cart.",
+  "data": {
+    "product_id": "41",
+    "quantity": "1",
+    "product_name": "Iphone 12s",
+    "timestamp": "2023-07-21T10:30:00Z"
+  }
+}
+```
+
+## api/sale/cart&api_token=your_token ## GET 
+
+## Request ##
+![image](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/assets/135150078/a5743217-19f3-47a3-bf90-ffd2af42ce48)
+
+## Response ##
+``` json
+{
+  "status": "success",
+  "message": "Cart products retrieved successfully.",
+  "data": {
+    "cart_id": "43",
+    "products": [
+      {
+        "product_id": "23",
+        "product_name": "LG Monitor",
+        "price": 192.99,
+        "quantity": 2
+      },
+      {
+        "product_id": "41",
+        "product_name": "Iphone 12s",
+        "price": 1231.49,
+        "quantity": 1
+      }
+    ]
+  }
+}
+```
+
+## api/sale/cart.remove&api_token=your_token ## GET 
+
+## Request ##
+![image](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/assets/135150078/a73c39cf-7afa-4e67-b867-0c66d2c8c3ad)
+
+## Response ##
+``` json
+{
+  "status": "success",
+  "message": "Product removed from cart successfully.",
+  "data": {
+    "cart_id": "43",
+    "removed_product": {
+      "product_id": "23",
+      "product_name": "LG Monitor"
+    }
+  }
+}
+```
+
+##  api/sale/voucher.add&api_token=your_token ## POsT
+
+## Request ##
+![image](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/assets/135150078/88db6e8a-b7da-4a6c-99a5-0728cfcf8f53)
+
+
+## Response ##
+``` json
+{
+  "status": "success",
+  "message": "Voucher added successfully.",
+  "data": {
+    "voucher_key": "0",
+    "from_name": "a",
+    "to_name": "b",
+    "message": "waw",
+    "voucher_amount": 100
+  }
+}
+```
+
+##  api/sale/voucher.remove&api_token=your_token ## POsT
+
+## Request ##
+![image](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/assets/135150078/e50a8093-bdb8-4d69-ac8d-529305638ec9)
+
+## Response ##
+``` json
+{
+  "status": "success",
+  "message": "Voucher removed successfully.",
+  "data": {
+    "voucher_key": "0"
+  }
+}
+```
+
+## Tests Examples ##
 
 * Check if status code is 200
 ```
@@ -254,7 +367,7 @@ pm.test("Response time is less than 200ms", function () {
     pm.expect(pm.response.responseTime).to.be.below(200);
 });
 ```
-## Test Results ##
+## Test Results Examples ##
 
 ![image](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/assets/135150078/05d1f292-b3b8-4360-9b46-8e26fe08016f)
 
