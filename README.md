@@ -168,7 +168,6 @@ are:
 * Clicking on the store logo will direct the customer back to the home page of the store
 
 The test cases with steps can be viewed here: [[test_cases.pdf]() ](https://github.com/GeorgescuAlina/proiect-testare-manuala-it-factory/blob/main/Zephyr%20TestCases.pdf)
-
 ## 1.5 Test Implementation
 
 The following elements are needed to be ready before the test execution phase begins:
