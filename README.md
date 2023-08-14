@@ -237,7 +237,7 @@ API base URL: http://192.168.1.174:8080/alina/index.php?route=
   "status": "success",
   "message": "Token generated successfully.",
   "data": {
-    "api_token": "3128dhsa1293dsak21"
+    "api_token": "a601dcaaf2c93d8c89ae641045"
   }
 }
 ```
